@@ -1,4 +1,4 @@
-# dev|bravo
+# delta|bravo
 
 A front-end campus directory prototype for the University of North Alabama project. It demonstrates role-based sign-in, JSON-backed campus records, CRUD workflows, search/filter/sort, session persistence, and an admin application inspector.
 
