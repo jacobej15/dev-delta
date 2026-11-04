@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login | DOM Time</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <script src="../assets/js/app.js" defer></script>
+</head>
+<body class="auth-page simple-auth">
+  <nav class="navbar navbar-dark site-nav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="../index.html"><span class="brand-mark">D</span> dev|bravo</a>
+      <a class="nav-link text-white" href="../index.html">Home</a>
+    </div>
+  </nav>
+
+  <main class="auth-main container">
+    <section class="auth-card">
+      <div class="auth-logo"><i class="bi bi-award-fill" aria-hidden="true"></i></div>
+      <p class="eyebrow text-purple">SIGN IN</p>
+      <h1>Login</h1>
+      <form class="mt-4" id="signin-form">
+        <div class="mb-3">
+          <label class="form-label" for="username">Username</label>
+          <input class="form-control" type="text" id="username" name="username" autocomplete="username" required placeholder="Enter your username">
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="password">Password</label>
+          <input class="form-control" type="password" id="password" name="password" autocomplete="current-password" required placeholder="Enter your password">
+        </div>
+        <button class="btn btn-purple w-100" type="submit">Sign in</button>
+        <p id="user-greeting" class="form-feedback" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container d-flex justify-content-center">
+      <div class="footer-links">
+        <a href="https://github.com/jacobej15/dev-delta.git" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://jacobej15.github.io/dev-delta/" target="_blank" rel="noopener noreferrer">Repo</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
